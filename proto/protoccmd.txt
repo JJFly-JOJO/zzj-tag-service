@@ -1,0 +1,6 @@
+ protoc -I. -I "G:\program practice\GoProject\pkg\mod\github.com\grpc-ecosystem\grpc-gateway@v1.14.5\third_pa
+rty\googleapis" -I C:\Users\93287\AppData\Roaming\JetBrains\GoLand2021.2\plugins\protoeditor\lib\protoeditor\include\ --grpc-gateway_out=logtostderr=true:. proto/*.proto #自动生成grpc-gateway代码
+
+protoc -I. -I "G:\program practice\GoProject\pkg\mod\github.co
+m\grpc-ecosystem\grpc-gateway@v1.14.5\third_party\googleapis" -I C:\Users\93287\AppData\Roaming\JetBrains\GoLand2021.2\plug
+ins\protoeditor\lib\protoeditor\include\  --swagger_out=logtostderr=true:. proto/*.proto #swagger定义文件的生成 (.swagger.json)
